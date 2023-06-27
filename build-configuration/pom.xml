@@ -253,7 +253,7 @@
       <version.owasp-dependency-check-plugin>4.0.2</version.owasp-dependency-check-plugin>
 
       <!-- versionx -->
-      <versionx.com.puppycrawl.tools.checkstyle>8.18</versionx.com.puppycrawl.tools.checkstyle>
+      <versionx.com.puppycrawl.tools.checkstyle>10.12.1</versionx.com.puppycrawl.tools.checkstyle>
 
       <!-- configuration properties -->
       <org.infinispan.attachServerZip>false</org.infinispan.attachServerZip>
