@@ -721,7 +721,7 @@
       <versionx.org.wildfly.client.wildfly-client-config>1.0.0.Final</versionx.org.wildfly.client.wildfly-client-config>
       <versionx.org.wildfly.common.wildfly-common>1.5.1.Final</versionx.org.wildfly.common.wildfly-common>
       <versionx.org.wildfly.core.wildfly-cli>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-cli>
-      <versionx.org.wildfly.core.wildfly-controller>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-controller>
+      <versionx.org.wildfly.core.wildfly-controller>22.0.0.Final</versionx.org.wildfly.core.wildfly-controller>
       <versionx.org.wildfly.core.wildfly-controller-client>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-controller-client>
       <versionx.org.wildfly.core.wildfly-core-management-client>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-core-management-client>
       <versionx.org.wildfly.core.wildfly-core-security>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-core-security>
@@ -735,7 +735,7 @@
       <versionx.org.wildfly.core.wildfly-embedded>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-embedded>
       <versionx.org.wildfly.core.wildfly-host-controller>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-host-controller>
       <versionx.org.wildfly.core.wildfly-io>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-io>
-      <versionx.org.wildfly.core.wildfly-jmx>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-jmx>
+      <versionx.org.wildfly.core.wildfly-jmx>22.0.0.Final</versionx.org.wildfly.core.wildfly-jmx>
       <versionx.org.wildfly.core.wildfly-launcher>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-launcher>
       <versionx.org.wildfly.core.wildfly-management-client-content>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-management-client-content>
       <versionx.org.wildfly.core.wildfly-model-test>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-model-test>
@@ -745,10 +745,10 @@
       <versionx.org.wildfly.core.wildfly-protocol>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-protocol>
       <versionx.org.wildfly.core.wildfly-remoting>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-remoting>
       <versionx.org.wildfly.core.wildfly-request-controller>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-request-controller>
-      <versionx.org.wildfly.core.wildfly-server>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-server>
+      <versionx.org.wildfly.core.wildfly-server>22.0.0.Final</versionx.org.wildfly.core.wildfly-server>
       <versionx.org.wildfly.core.wildfly-subsystem-test>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-subsystem-test>
       <versionx.org.wildfly.core.wildfly-subsystem-test-framework>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-subsystem-test-framework>
-      <versionx.org.wildfly.core.wildfly-threads>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-threads>
+      <versionx.org.wildfly.core.wildfly-threads>22.0.0.Final</versionx.org.wildfly.core.wildfly-threads>
       <versionx.org.wildfly.core.wildfly-version>${version.org.wildfly.core}</versionx.org.wildfly.core.wildfly-version>
       <versionx.org.wildfly.extras.creaper.creaper-commands>1.1.0</versionx.org.wildfly.extras.creaper.creaper-commands>
       <versionx.org.wildfly.extras.creaper.creaper-core>1.1.0</versionx.org.wildfly.extras.creaper.creaper-core>
@@ -4752,8 +4752,7 @@
                   <configuration>
                      <target>
                         <property name="classpath" refid="maven.compile.classpath"/>
-                        <java classname="org.infinispan.commons.util.BlueprintGenerator" failonerror="true"
-                              fork="false">
+                        <java classname="org.infinispan.commons.util.BlueprintGenerator" failonerror="true" fork="false">
                            <arg value="${project.build.outputDirectory}"/>
                            <classpath>
                               <pathelement path="${project.build.outputDirectory}"/>
@@ -4847,7 +4846,7 @@
                                     </goals>
                                  </pluginExecutionFilter>
                                  <action>
-                                    <ignore />
+                                    <ignore/>
                                  </action>
                               </pluginExecution>
                               <pluginExecution>
@@ -4860,7 +4859,7 @@
                                     </goals>
                                  </pluginExecutionFilter>
                                  <action>
-                                    <ignore />
+                                    <ignore/>
                                  </action>
                               </pluginExecution>
                               <pluginExecution>
@@ -4876,7 +4875,7 @@
                                     </goals>
                                  </pluginExecutionFilter>
                                  <action>
-                                    <ignore />
+                                    <ignore/>
                                  </action>
                               </pluginExecution>
                               <pluginExecution>
@@ -4889,7 +4888,7 @@
                                     </goals>
                                  </pluginExecutionFilter>
                                  <action>
-                                    <ignore />
+                                    <ignore/>
                                  </action>
                               </pluginExecution>
                               <pluginExecution>
@@ -4902,7 +4901,7 @@
                                     </goals>
                                  </pluginExecutionFilter>
                                  <action>
-                                    <ignore />
+                                    <ignore/>
                                  </action>
                               </pluginExecution>
                               <pluginExecution>
@@ -4915,7 +4914,7 @@
                                     </goals>
                                  </pluginExecutionFilter>
                                  <action>
-                                    <ignore />
+                                    <ignore/>
                                  </action>
                               </pluginExecution>
                               <pluginExecution>
@@ -4928,7 +4927,7 @@
                                     </goals>
                                  </pluginExecutionFilter>
                                  <action>
-                                    <ignore />
+                                    <ignore/>
                                  </action>
                               </pluginExecution>
                               <pluginExecution>
@@ -4941,7 +4940,7 @@
                                     </goals>
                                  </pluginExecutionFilter>
                                  <action>
-                                    <ignore />
+                                    <ignore/>
                                  </action>
                               </pluginExecution>
                               <pluginExecution>
@@ -4954,7 +4953,7 @@
                                     </goals>
                                  </pluginExecutionFilter>
                                  <action>
-                                    <ignore />
+                                    <ignore/>
                                  </action>
                               </pluginExecution>
                               <pluginExecution>
@@ -4967,7 +4966,7 @@
                                     </goals>
                                  </pluginExecutionFilter>
                                  <action>
-                                    <ignore />
+                                    <ignore/>
                                  </action>
                               </pluginExecution>
                            </pluginExecutions>
@@ -5046,7 +5045,7 @@
                               <echo message="Uploading Schema files to ${upload.schemaDir}" if:set="hasSchema" xmlns:if="ant:if"/>
                               <scp todir="${upload.schemaDir}" keyfile="${upload.keyFile}" verbose="true" compressed="true" if:set="hasSchema" xmlns:if="ant:if">
                                  <fileset dir="${project.build.outputDirectory}/schema">
-                                    <include name="*-${infinispan.core.schema.version}.xsd" />
+                                    <include name="*-${infinispan.core.schema.version}.xsd"/>
                                  </fileset>
                               </scp>
                            </target>
@@ -5523,9 +5522,7 @@
                            <target>
                                  <available file="${project.build.directory}/classes" type="dir" property="hasClasses"/>
                                  <echo message="Copying test classes to jacoco folder" if:set="hasClasses" xmlns:if="ant:if"/>
-                                 <copydir dest="${jacoco.reportPath}/classes"
-                                          src="${project.build.directory}/classes"
-                                          if:set="hasClasses" xmlns:if="ant:if"/>
+                                 <copydir dest="${jacoco.reportPath}/classes" src="${project.build.directory}/classes" if:set="hasClasses" xmlns:if="ant:if"/>
                            </target>
                         </configuration>
                      </execution>
@@ -5578,8 +5575,7 @@
                               <delete dir="${project.build.directory}/classes"/>
                               <echo>Copying the generated classes file to ${project.build.directory}/classes
                               </echo>
-                              <copydir dest="${project.build.directory}/classes"
-                                       src="${jacoco.reportPath}/classes"/>
+                              <copydir dest="${project.build.directory}/classes" src="${jacoco.reportPath}/classes"/>
                            </target>
                         </configuration>
                      </execution>
